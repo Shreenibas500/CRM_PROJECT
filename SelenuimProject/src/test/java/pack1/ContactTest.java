@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 public class ContactTest {
 	@Test
 	public void createcontactTest() {
-		String URL = System.getProperty("url");
+		String URL = System.getProperty("url")
 		String BROWSER = System.getProperty("browser");
 		String USERNAME = System.getProperty("username");
 		String PASSWORD = System.getProperty("password");
